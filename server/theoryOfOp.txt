@@ -1,0 +1,15 @@
+State Machine:
+
+State: Startup
+Actions:
+-Setup ports
+-Load config
+
+State: Run
+Actions:
+Listen
+Distribute
+
+State: Shutdown
+Actions:
+-Close ports
